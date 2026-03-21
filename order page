@@ -82,5 +82,22 @@ body{
   margin-top:20px;
 }
 
-.footer-columns-div{
-  display:flex;
+.footer-columns div{
+  width:30px;
+}
+
+.bottom{
+  margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+  
+<!-- HEADER -->
+<div class="header">
+
+<img src="order.JPG">
+
+<div class="title-box"
