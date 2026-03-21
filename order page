@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>greenfield local hub</title>
 
+<style>
+
+body{
+  margin:0;
+  font-family:arial;
+  background-color:#7a6131;
+  color:white;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+}
+
+.header img{
+  width:200px;
+  height:120px;
+  object-fit:cover;
+}
+
+.button button{
+  background:#046b12;
+  border:none;
+  color:white;
+  paddin:20px 100px;
+  margin:5px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.search{
+  background:#046b12;
+  padding:20px;
+  text-align:center;
+  font-size:18px;
+}
+
+.nav{
+  background:#046b12;
+  padding:20px;
+  text-align:center
+}
+
+.order{
+  background::#046b12;
+  padding:20px;
+  text-align:center;
+}
+
+.option{
+  padding:20px;
+  text-align:center;
+}
+
+.collection{
+  background:#046b12;
+  padding:20px;
+  text-align:left;
+}
+
+.delivery{
+  background:#046b12;
+  padding:20px;
+  text-align:right;
+}
+
+.footer{
+  background:#046b12;
+  padding:30px;
+}
+
+.footer-columns{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.footer-columns-div{
+  display:flex;
