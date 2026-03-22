@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>greenfield local hub</title>
 
+<style>
+
+body{
+  margin:0;
+  font-family:arial;
+  background-color:#7a6131;
+  color:white;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.header img{
+  width:200px;
+  height:120px;
+  object-fit:cover;
+}
+
+.title-box{
+  text-align:center;
+  flex:1;
+}
+
+.button button{
+  background:#046b12;
+  border:none;
+  color:white;
+  padding:20px 100px;
+  margin:5px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+
+
+.search{
+  background:#046b12;
+  padding:20px;
+  text-align:center;
+  font-size:18px
+}
+
+.nav{
+  background:#046b12;
+  padding:20px;
+  text-align:center;
+}
+
+.openingtimes{
+  background:#046b12;
+  padding:10px;
+  text-align:center;
+  margin:20px auto;
+  width:200px;
+}
+
+.footer{
+  background:#046b12;
+  padding:30px;
+}
+
+.footer-columns{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.footer-columns div{
+  width:30%;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+
+
+
+<div class="title-box">
+<h2>greenfield local hub</h2>
+
+<div class="button">
+<button>opening hours page</button>
+</div>
+
+
+<!-- SEARCH -->
+<div class="search">
+search for 🔎 
+</div>
+
+
+<!-- NAVIGATION -->
+<div class="nav">
+home / login / order / allergy advice / support page / menu / opening times
+</div>
+
+
+<!-- OPENINGTIMES -->
+<div class="openingtimes">
+opening hours
+</div>
+
+<p>Monday: 8:30-18:00
+Tuesday:8:30-18:00
+Wednesday8:30-18:00
+Thursday:8:30-18:00
+Friday:9-17:00
+Saturday:10-16:00
+Sunday:closed 
+bank holidays: closed
+Christmas day and new years day: closed</p>
+
+<!-- FOOTER -->
+<div class="footer">
+
+<h3>greenfield local hub</h3>
+
+<p>follow us on twitter, instagram and facebook!</p>
+
+<div class="footer-columns">
+
+<div>
+<p><b>my orders</b></p>
+<p>store location</p>
+<p>help centre</p>
+</div>
+
+<div>
+<p><b>services</b></p>
+<p>click and collect</p>
+<p>(GLH) rewards</p>
+<p>deliveries</p>
+</div>
+
+<div>
+<p><b>help centre</b></p>
+<p>contact us</p>
+<p>how to shop</p>
+<p>product recalls</p>
+</div>
+
+</div>
+
+(NOT FIXED SORT IT OUT)
