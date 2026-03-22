@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>greenfield local hub</title>
 
+<style>
+
+body{
+  margin:0;
+  font-family:arial;
+  background-color:#7a6131;
+  color:white;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.title-box{
+  text-align:center;
+  flex:1;
+}
+  
+
+.button button{
+  background:#046b12;
+  border:none;
+  color:white;
+  padding:20px 100px;
+  margin:5px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.search{
+  background:#046b12;
+  padding:20px;
+  text-align:center;
+  font-size:18px;
+}
+
+.nav{
+  background:#046b12;
+  padding:20px;
+  text-align:center;
+}
+
+.menu{
+  background:#046b12;
+  padding:10px;
+  text-align:center;
+  margin:20px auto;
+  width:200px;
+}
+
+.images{
+  display:flex;
+  justify-content:space-between;
+  padding:20px
+}
+
+.images img{
+  width:23%;
+  height:200px;
+  object-fit:cover;
+  margin-bottom:20px;
+}
+
+.footer{
+  background:#046b12;
+  padding:30px;
+}
+
+.footer-columns{
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+}
+
+.footer-columns div{
+  width:30%;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+
+<div class="title-box">
+<h2>greenfield local hub</h2>
+
+
+<div class="button">
+<button>menu page</button>
+</div>
+
+<!-- SEARCH -->
+<div class="search">
+search for 🔎 
+</div>
+
+<!-- NAVIGATION -->
+<div class="nav">
+home / login / order / allergy advice / support page / menu / opening times
+</div>
+
+<!-- MENU -->
+<div class="menu">
+menu
+</div>
+
+<p>we have a variety of different items on our menu
+product categories:
+fresh produce(fruits, vegetables, herbs 
+pantry staples (grains, pasta, canned goods)
+dairy and eggs
+meat, poultry, seafood
+snacks and drinks
+organic products.<p>
+
+<p>PLEASE NOTE: some of our products may contain allergens please check labels properly or speak to a member of staff if you are unsure.<p>
+
+
+<div class="images">
+<img scr="vegtables.JPG">
+<img scr="meat.JPG">
+<img scr="eggs.JPG">
+<img scr="snacks.JPG">
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+<h3>greenfield local hub</h3>
+
+<p>follow us on twitter, instagram and facebook!</p>
+
+<div class="footer-columns">
+
+<div>
+<p><b>my orders</b></p>
+<p>store location</p>
+<p>help centre</p>
+</div>
+
+<div>
+<p><b>services</b></p>
+<p>click and collect</p>
+<p>(GLH) rewards</p>
+<p>deliveries</p>
+</div>
+
+<div>
+<p><b>help centre</b></p>
+<p>contact us</p>
+<p>how to shop</p>
+<p>product recalls</p>
+</div>
+
+</div>
