@@ -19,6 +19,11 @@ body{
   padding:20px;
 }
 
+.title-box{
+  margin:0;
+  text-align:center;
+}
+
 .header img{
   width:200px;
   height:120px;
@@ -29,7 +34,7 @@ body{
   background:#046b12;
   border:none;
   color:white;
-  paddin:20px 100px;
+  padding:20px 100px;
   margin:5px;
   font-size:16px;
   cursor:pointer;
@@ -49,9 +54,12 @@ body{
 }
 
 .order{
-  background::#046b12;
-  padding:20px;
+  background:#046b12;
+  padding:10px;
   text-align:center;
+  margin:20px auto;
+  width:200px;
+  
 }
 
 .option{
@@ -63,6 +71,8 @@ body{
   background:#046b12;
   padding:20px;
   text-align:left;
+  margin:20px auto;
+  width:200px;
 }
 
 .delivery{
@@ -83,7 +93,7 @@ body{
 }
 
 .footer-columns div{
-  width:30px;
+  width:30%;
 }
 
 .bottom{
@@ -95,9 +105,40 @@ body{
 
 <body>
   
-<!-- HEADER -->
+
+
 <div class="header">
 
-<img src="order.JPG">
+  <img src="order.JPG">
+  
+  <div class="title-box">
+    <h2>greenfield local hub</h2>
+    
+    <div class="button">
+       <button>order page</button>
+    </div>
+  </div>
+ </div>
+ 
+<!-- SEARCH -->
+<div class="search">
+search for 🔎 
+</div>
 
-<div class="title-box"
+<!-- NAVIGATION -->
+<div class="nav">
+home / login / order / allergy advice / support page / menu / opening time
+</div>
+
+<!-- ORDER -->
+<div class="order">
+orders
+</div>
+
+<!-- OPTION -->
+<div class="option">
+<p>please select an option</p>
+
+<!-- COLLECTION -->
+<div class="collection">
+<p>collection</p>
