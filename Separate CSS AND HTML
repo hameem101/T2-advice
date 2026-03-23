@@ -1,0 +1,14 @@
+create new file call it:
+style.css
+
+move your CSS so inside <style> to </style> and paste into style.css
+
+update HTML:<link rel="stylesheet" href="styles.css">
+
+end product should look like:
+<!DOCTYPE html>
+<html>
+<head>
+<title>greenfield local hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
