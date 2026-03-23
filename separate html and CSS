@@ -1,0 +1,92 @@
+CREATE 2 FILES IN SAME FOLDER
+index.html
+style.css
+
+MOVE all CSS into style sheet 
+body{
+    margin:0;
+    font-family:arial;
+    background-color:#7a6131;
+    color:white;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.header img{
+    width:200px;
+    height:120px;
+    object-fit:cover;
+}
+
+.buttons{
+    margin-top:10px;
+}
+
+.buttons button{
+    background:#046b12;
+    border:none;
+    color:white;
+    padding:10px 25px;
+    margin:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.search{
+    background:#046b12;
+    padding:20px;
+    text-align:center;
+    font-size:18px;
+}
+
+.nav{
+    background:#046b12;
+    padding:20px;
+    text-align:center;
+}
+
+/* FIXED spelling */
+.category-section{
+    padding:20px;
+}
+
+.category-box{
+    background:#046b12;
+    display:inline-block;
+    padding:20px 40px;
+    margin-top:10px;
+}
+
+.about{
+    padding:20px;
+}
+
+.footer{
+    background:#046b12;
+    padding:30px;
+}
+
+.footer-columns{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.footer-columns div{
+    width:30%;
+}
+
+.bottom{
+    margin-top:20px;
+}
+
+⚠️ 4. Fix small mistakes in your HTML
+❌ This:
+<div class="about us">
+👉 means two classes (and breaks your styling)
+✅ Fix:<div class="about">
