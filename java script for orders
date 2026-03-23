@@ -1,0 +1,25 @@
+#FIRST do this: 
+  <div class="choices">
+
+  <div class="collection" onclick="chooseOption('collection')">
+    <p>Collection</p>
+  </div>
+
+  <div class="delivery" onclick="chooseOption('delivery')">
+    <p>Delivery</p>
+  </div>
+
+</div>
+
+#THEN DO THIS
+  <script>
+function chooseOption(option) {
+  alert("You selected: " + option);
+
+  if(option === "collection"){
+    window.location.href = "collection.html";
+  } else {
+    window.location.href = "delivery.html";
+  }
+}
+</script>
