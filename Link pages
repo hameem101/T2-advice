@@ -1,0 +1,18 @@
+change this <div class="nav">
+home / login / order / allergie advice / support page / menu / opening time /
+</div>
+
+to this <div class="nav">
+  <a href="index.html">Home</a> /
+  <a href="login.html">Login</a> /
+  <a href="order.html">Order</a> /
+  <a href="allergy.html">Allergy Advice</a> /
+  <a href="support.html">Support</a> /
+  <a href="menu.html">Menu</a> /
+  <a href="hours.html">Opening Times</a>
+</div>
+
+basicallt whatever the file name for each page is
+example: menu.html
+it must be called 
+<a href="menu.html">Menu</a>
