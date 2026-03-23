@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greenfield Local Hub</title>
+</head>
+
+<body>
+
+<div class="buttons">
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Sign In</button>
+</div>
+
+<script>
+function register() {
+  alert("Go to register page");
+  window.location.href = "register.html";
+}
+
+function login() {
+  alert("Go to login page");
+  window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>
+
+YOU THEN NEED TO CREATE THESE PAGES
+window.location.href = "register.html";
+window.location.href = "login.html";
