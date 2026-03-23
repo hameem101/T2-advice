@@ -1,0 +1,16 @@
+<div class="buttons">
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Sign In</button>
+</div>
+
+<script>
+function register() {
+  alert("Go to register page");
+  window.location.href = "register.html";
+}
+
+function login() {
+  alert("Go to login page");
+  window.location.href = "login.html";
+}
+</script>
