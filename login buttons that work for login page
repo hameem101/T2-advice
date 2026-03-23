@@ -1,0 +1,17 @@
+<div class="login-text">
+  <h3>Login to your account</h3>
+
+  <form>
+    <label>Email address</label><br>
+    <input type="email" placeholder="Enter email"><br><br>
+
+    <label>Password</label><br>
+    <input type="password" placeholder="Enter password"><br><br>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <p><a href="#">Forgot password?</a></p>
+
+  <p>Don't have an account? <a href="#">Sign up</a></p>
+</div>
