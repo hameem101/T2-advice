@@ -1,0 +1,9 @@
+greenfield-site/
+│
+├── index.html
+├── menu.html
+├── login.html
+├── styles.css
+├── images/
+│   ├── store1.JPG
+│   └── store2.JPG
